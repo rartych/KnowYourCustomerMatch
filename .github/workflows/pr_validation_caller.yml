@@ -45,6 +45,6 @@ jobs:
     uses: rartych/tooling/.github/workflows/pr_validation.yml@main
     secrets: inherit
 # Tools configuration from the tooling repository subfolder of /linting/config/ indicated by `configurations` variable
-# If needed, you can specify a configuration from another subfolder of camaraproject/tooling/linting/config/ (uncomment below)
+# If needed, you can specify a configuration from another subfolder of camaraproject/tooling/linting/config/ 
     with:
       configurations: kyc-match
